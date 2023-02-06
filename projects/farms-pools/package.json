@@ -1,0 +1,27 @@
+{
+  "name": "farms-pools",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy-syrup-token:testnet": "npx hardhat run --network testnet scripts/deploy-syrup-token.ts",
+    "deploy-cake-token:testnet": "npx hardhat run --network testnet scripts/deploy-cake-token.ts",
+    "deploy-master-chef:testnet": "npx hardhat run --network testnet scripts/deploy-masterchef.ts",
+    "deploy-master-chefV2:testnet": "npx hardhat run --network testnet scripts/deploy-masterchef-v2.ts",
+    "deploy-factory:testnet": "npx hardhat run --network testnet scripts/deploy-factory.ts",
+    "deploy-icake:testnet": "npx hardhat run --network testnet scripts/deploy-icake.ts",
+    "deploy:testnet": "npx hardhat run --network testnet scripts/deploy.ts",
+    "deploy:mainnet": "npx hardhat run --network mainnet scripts/deploy.ts",
+    "test": "npx hardhat test",
+    "test:coverage": "npx hardhat coverage",
+    "test:size-contracts": "npx hardhat size-contracts"
+  },
+  "dependencies": {
+    "bsc-library": "1.0.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.2.0"
+  }
+}

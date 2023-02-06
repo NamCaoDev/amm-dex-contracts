@@ -1,0 +1,35 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_user",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_lockedAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_lockedDuration",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_totalLockedAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_maxLockDuration",
+        "type": "uint256"
+      }
+    ],
+    "name": "onCakePoolUpdate",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
